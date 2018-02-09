@@ -22,13 +22,25 @@ nav{
 h1 {
     font-weight: bold;
     font-size: 36px;
+    background-color: darkgreen;
+    display: inline-block;
+    padding: 20px;
+}
+
+#navbar {
+    float: right;
+    margin-top: 28px;
 }
 
 li {
     float: right;
     display: inline;
+    display:block;
     padding: 10px;
     margin-bottom: 3px;
+    background-color: darkgreen;
+    color: white;
+    margin-left: 10px;
 }
 
 #container {
